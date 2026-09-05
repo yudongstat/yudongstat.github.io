@@ -90,13 +90,15 @@ a:hover {
   align-self: start;
 }
 
+/* Full photo shown inside a square frame */
 .profile-photo {
   display: block;
   width: 210px;
   height: 210px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center 34%;
+  border-radius: 0;
+  object-fit: contain;
+  object-position: center;
+  background: #fff;
   margin-bottom: 18px;
 }
 
