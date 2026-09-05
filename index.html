@@ -3,16 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Academic website of Yudong Wang, Associate Professor at the University of Macau." />
-  <title>Yudong Wang</title>
+  <meta name="description" content="Academic homepage of Yudong Wang, Associate Professor at the University of Macau." />
+  <title>Yudong Wang's Homepage</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
-    <div class="nav-wrap">
-      <a class="brand" href="#home">Yudong Wang</a>
-      <nav class="nav" aria-label="Main navigation">
-        <a href="#home">Home</a>
+    <div class="header-inner">
+      <a class="site-title" href="#home">Yudong Wang's Homepage</a>
+      <nav class="top-nav" aria-label="Main navigation">
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
         <a href="#teaching">Teaching</a>
@@ -21,234 +20,130 @@
     </div>
   </header>
 
-  <main>
-    <section id="home" class="hero section">
-      <div class="hero-inner">
-        <p class="eyebrow">Academic Website</p>
-        <h1>Yudong Wang</h1>
-        <p class="position">Associate Professor</p>
-        <p class="affiliation">Faculty of Business Administration<br />University of Macau</p>
-        <div class="links">
-          <a href="mailto:ydwang@um.edu.mo">Email</a>
-          <a href="https://scholar.google.com/citations?user=80Ka6ZIAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-        </div>
-      </div>
-    </section>
+  <div class="page-shell" id="home">
+    <aside class="profile-sidebar">
+      <img class="profile-photo" src="profile.jpg" alt="Yudong Wang" />
+      <h2 class="profile-name">Yudong Wang</h2>
+      <p class="profile-title">Associate Professor</p>
 
-    <section class="section compact" aria-labelledby="about-title">
-      <h2 id="about-title">About</h2>
-      <p>
-        I am an Associate Professor in the Faculty of Business Administration at the University of Macau.
-        My research interests include distributed inference, semiparametric inference, and transfer learning.
-        My work develops statistically principled and computationally efficient methods for modern data settings,
-        with particular interests in distributed and heterogeneous data, semiparametric models, and applications in
-        healthcare and reliability.
-      </p>
-
-      <div class="timeline">
-        <div class="timeline-item">
-          <span class="year">2026–present</span>
-          <div><strong>Associate Professor</strong><br />Faculty of Business Administration, University of Macau</div>
-        </div>
-        <div class="timeline-item">
-          <span class="year">2023–2025</span>
-          <div><strong>Postdoctoral Researcher</strong><br />University of Pennsylvania</div>
-        </div>
-        <div class="timeline-item">
-          <span class="year">2022–2023</span>
-          <div><strong>Research Fellow</strong><br />National University of Singapore</div>
-        </div>
-        <div class="timeline-item">
-          <span class="year">2023</span>
-          <div><strong>PhD in Industrial Engineering</strong><br />National University of Singapore</div>
-        </div>
-      </div>
-    </section>
-
-    <section id="research" class="section">
-      <div class="section-heading">
-        <p class="section-kicker">Research</p>
-        <h2>Research Interests</h2>
-      </div>
-      <div class="research-grid">
-        <article class="card">
-          <h3>Distributed Inference</h3>
-          <p>
-            Statistical inference and learning across distributed and heterogeneous data sources,
-            with an emphasis on communication-efficient procedures and one-shot aggregation.
-          </p>
-        </article>
-        <article class="card">
-          <h3>Semiparametric Inference</h3>
-          <p>
-            Flexible semiparametric modeling and computation, including sieve estimation,
-            survival analysis, censoring, and shape-constrained problems.
-          </p>
-        </article>
-        <article class="card">
-          <h3>Transfer Learning</h3>
-          <p>
-            Statistical methodology for borrowing information across related data sources while
-            accommodating heterogeneity between populations or study sites.
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <section id="publications" class="section">
-      <div class="section-heading">
-        <p class="section-kicker">Publications</p>
-        <h2>Selected and Recent Work</h2>
-      </div>
-
-      <h3 class="pub-group">Statistical Methodology</h3>
-      <ol class="pub-list">
-        <li>
-          Yong Chen, Yiwen Lu, Jingmei Qiu, Huiyuan Wang, and <strong>Yudong Wang</strong> (2026).
-          “MOSAiC: Multi-site One-Shot Aggregation of Compressed Risk Functions.”
-          <em>Journal of the American Statistical Association</em>, in press (alphabetical order).
-        </li>
-        <li>
-          Jinyang Wang, <strong>Yudong Wang</strong>, Zhisheng Ye, and Yong Chen (2026).
-          “Distributed Semiparametric Inference for Heterogeneous Sites via Single-Round Communication.”
-          <em>Journal of the American Statistical Association</em>, in press.
-        </li>
-        <li>
-          <strong>Yudong Wang</strong>, Zhisheng Ye, and Cheng Yong Tang (2026).
-          “Exploring Novel Uncertainty Quantification through Forward Intensity Function Modeling.”
-          <em>Journal of Machine Learning Research</em>, 27(30), 1–63.
-        </li>
-        <li>
-          <strong>Yudong Wang</strong>, Jiayi Tong, Xiangbin Hu, Zhisheng Ye, Cheng Yong Tang, and Yong Chen (2025).
-          “Semiparametric Sieve Estimation for Survival Data with Two-layer Censoring.”
-          <em>Biometrika</em>, 112(2), asaf006.
-        </li>
-        <li>
-          Xiangbin Hu, <strong>Yudong Wang</strong>, Zhisheng Ye, and Xingqiu Zhao (2025).
-          “Phase-type Distributions for Sieve Estimation.”
-          <em>Journal of the American Statistical Association</em>, 120(551), 1828–1839.
-        </li>
-        <li>
-          Peihong Xiao, <strong>Yudong Wang*</strong>, Wenting Liu, and Zhisheng Ye (2024).
-          “Remaining Useful Life Prediction Based on Forward Intensity.”
-          <em>Technometrics</em>, 67(2), 238–253.
-        </li>
-        <li>
-          Tong Wu, <strong>Yudong Wang*</strong>, Zhisheng Ye, and Nan Chen (2024).
-          “Spatio-Temporal Analysis and Prediction of Mass Telecommunication Base Station Failure Events.”
-          <em>Technometrics</em>, 66(1), 77–89.
-        </li>
-        <li>
-          <strong>Yudong Wang</strong> and Zhisheng Ye (2023).
-          “Phase-Type Distributions for Product Return Data with Two-Layer Censoring.”
-          <em>Journal of the Royal Statistical Society Series C (Applied Statistics)</em>, 72(5), 1475–1492.
-        </li>
-        <li>
-          <strong>Yudong Wang</strong>, Yanlin Tang, and Zhisheng Ye (2022).
-          “Paired or Partially Paired Two-Sample Tests with Unordered Samples.”
-          <em>Journal of the Royal Statistical Society Series B (Statistical Methodology)</em>, 84(4), 1503–1525.
-        </li>
-        <li>
-          <strong>Yudong Wang</strong>, Zhisheng Ye, and Hongyuan Cao (2021).
-          “On Computation of Semiparametric Maximum Likelihood Estimators with Shape Constraints.”
-          <em>Biometrics</em>, 77(1), 113–124.
-        </li>
-      </ol>
-      <p class="note">* Corresponding author.</p>
-
-      <h3 class="pub-group">Applications and Collaborative Work</h3>
-      <ol class="pub-list">
-        <li>
-          <strong>Yudong Wang§</strong>, Dazheng Zhang§, Jiayi Tong, Xing He, Liang Li, Lichao Sun,
-          Ashutosh Shukla, Jiang Bian, David A. Asch, and Yong Chen (2025).
-          “A Communication-efficient Federated Learning Algorithm to Assess Racial Disparities in Post-Transplantation Survival Time.”
-          <em>Journal of the American Medical Informatics Association</em>, ocaf138.
-          Featured article by the Editor-in-Chief.
-        </li>
-        <li>
-          Qiong Wu, Bingyu Zhang, Jiayi Tong, L. Charles Bailey, et al., <strong>Yudong Wang</strong>, et al., and Yong Chen (2025).
-          “Real-world Effectiveness and Causal Mediation Study of BNT162b2 on Long COVID Risks in Children and Adolescents.”
-          <em>The Lancet eClinicalMedicine</em>, 79, 102962.
-        </li>
-        <li>
-          Qiong Wu, Jiayi Tong, Bingyu Zhang, Dazheng Zhang, Jiajie Chen, Yuqing Lei, Yiwen Lu,
-          <strong>Yudong Wang</strong>, et al., and Yong Chen (2024).
-          “Real-World Effectiveness of BNT162b2 Against Infection and Severe Diseases in Children and Adolescents.”
-          <em>Annals of Internal Medicine</em>, 177(2), 165–176.
-        </li>
-        <li>
-          Lijuan Shen, <strong>Yudong Wang</strong>, Qingqing Zhai, and Yincai Tang (2018).
-          “Degradation Modeling Using Stochastic Processes with Random Initial Degradation.”
-          <em>IEEE Transactions on Reliability</em>, 68(4), 1320–1329.
-        </li>
-      </ol>
-      <p class="note">§ Co-first authors.</p>
-    </section>
-
-    <section id="teaching" class="section">
-      <div class="section-heading">
-        <p class="section-kicker">Teaching</p>
-        <h2>Teaching Experience</h2>
-      </div>
-      <div class="simple-list">
-        <div class="simple-item">
-          <span class="year">Fall 2020</span>
-          <div><strong>IE6002 Advanced Engineering Statistics</strong><br />Teaching Assistant, National University of Singapore</div>
-        </div>
-        <div class="simple-item">
-          <span class="year">Fall 2019</span>
-          <div><strong>IE5123 Reliability Engineering and Asset Management</strong><br />Teaching Assistant, National University of Singapore</div>
-        </div>
-        <div class="simple-item">
-          <span class="year">Spring 2019</span>
-          <div><strong>IE2100 Introduction to Probability</strong><br />Teaching Assistant, National University of Singapore</div>
-        </div>
-      </div>
-    </section>
-
-    <section id="service" class="section">
-      <div class="section-heading">
-        <p class="section-kicker">Service</p>
-        <h2>Professional Activities</h2>
-      </div>
-
-      <div class="two-col">
-        <div>
-          <h3>Session Chair</h3>
-          <ul>
-            <li>2024 ICSA Applied Statistics Symposium, Nashville, Tennessee — “Addressing Heterogeneity in Federated and Transfer Learning in Real-world Data.”</li>
-            <li>4th International Conference on System Reliability and Safety Engineering, Guangzhou, China — “Data-driven Approaches in Reliability and Operations Management.”</li>
-          </ul>
-
-          <h3>Reviewer</h3>
-          <p>INFORMS Journal on Data Science; Lifetime Data Analysis; Statistics and Computing.</p>
-        </div>
-
-        <div>
-          <h3>Awards and Honors</h3>
-          <ul>
-            <li><strong>National Semiconductor Gold Medal</strong> (2023), National University of Singapore.</li>
-            <li><strong>Finalist, QSR Best Case Study Paper Competition</strong> (2022), INFORMS.</li>
-            <li><strong>Best Paper Award</strong> (2021), First International Workshop on Statistical Theory and Related Fields.</li>
-          </ul>
-        </div>
-      </div>
-
-      <h3>Selected Conference Presentations</h3>
-      <ul>
-        <li>2025 Joint Statistical Meetings, Nashville — “Semiparametric Sieve Estimation for Survival Data with Two-layer Censoring.”</li>
-        <li>2024 Joint Statistical Meetings, Portland — “Integration of Heterogeneous Data via a One-shot Distributed EM Algorithm.”</li>
-        <li>2024 ICSA Applied Statistics Symposium, Nashville — “Integration of Heterogeneous Data via a One-shot Distributed EM Algorithm.”</li>
-        <li>2019 International Conference on the Interface between Statistics and Engineering, Seoul — “Phase-type Distributions for Product Return Data with Two-layer Censoring.”</li>
+      <ul class="profile-links">
+        <li>Faculty of Business Administration<br />University of Macau</li>
+        <li><a href="mailto:ydwang@um.edu.mo">Email</a></li>
+        <li><a href="https://scholar.google.com/citations?user=80Ka6ZIAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></li>
       </ul>
-    </section>
-  </main>
+    </aside>
 
-  <footer>
-    <div class="footer-inner">
-      <span>© <span id="year"></span> Yudong Wang</span>
-      <span>University of Macau</span>
-    </div>
+    <main class="main-content">
+      <section class="content-section first-section">
+        <h1>About Me</h1>
+        <p>
+          I am an Associate Professor in the Faculty of Business Administration at the University of Macau.
+          Before joining the University of Macau, I was a Postdoctoral Researcher in the Department of
+          Biostatistics, Epidemiology and Informatics at the University of Pennsylvania, and a Research Fellow
+          in the Department of Industrial Systems Engineering and Management at the National University of Singapore.
+        </p>
+        <p>
+          I received my PhD in Industrial Engineering from the National University of Singapore in 2023,
+          my MS in Statistics from East China Normal University in 2018, and my BS in Mathematics and Applied
+          Mathematics from Qingdao University of Science and Technology in 2015.
+        </p>
+      </section>
+
+      <section class="content-section" id="research">
+        <h1>Research Interests</h1>
+        <ul class="interest-list">
+          <li>
+            <strong>Distributed inference:</strong> statistical inference and learning with distributed and heterogeneous data,
+            with particular emphasis on communication-efficient and one-shot procedures.
+          </li>
+          <li>
+            <strong>Semiparametric inference:</strong> flexible semiparametric modeling, estimation, computation, and
+            uncertainty quantification, including survival and censored-data problems.
+          </li>
+          <li>
+            <strong>Transfer learning:</strong> principled borrowing of information across related populations or data sources
+            while accommodating cross-source heterogeneity.
+          </li>
+        </ul>
+      </section>
+
+      <section class="content-section highlights">
+        <h1>Recent Highlights</h1>
+        <ul>
+          <li>[08/2026] Joined the University of Macau as an Associate Professor.</li>
+          <li>[2026] “MOSAiC: Multi-site One-Shot Aggregation of Compressed Risk Functions” is in press at <em>JASA</em>.</li>
+          <li>[2026] “Distributed Semiparametric Inference for Heterogeneous Sites via Single-Round Communication” is in press at <em>JASA</em>.</li>
+        </ul>
+      </section>
+
+      <section class="content-section" id="publications">
+        <h1>Publications</h1>
+        <p class="annotation"><sup>*</sup> denotes corresponding author; <sup>§</sup> denotes co-first authors.</p>
+
+        <h2>Statistical Methodology</h2>
+        <ol class="publication-list">
+          <li>Yong Chen, Yiwen Lu, Jingmei Qiu, Huiyuan Wang, and <strong>Yudong Wang</strong> (2026). MOSAiC: Multi-site One-Shot Aggregation of Compressed Risk Functions. <em>Journal of the American Statistical Association</em>, in press (alphabetical order).</li>
+          <li>Jinyang Wang, <strong>Yudong Wang</strong>, Zhisheng Ye, and Yong Chen (2026). Distributed Semiparametric Inference for Heterogeneous Sites via Single-Round Communication. <em>Journal of the American Statistical Association</em>, in press.</li>
+          <li><strong>Yudong Wang</strong>, Zhisheng Ye, and Cheng Yong Tang (2026). Exploring Novel Uncertainty Quantification through Forward Intensity Function Modeling. <em>Journal of Machine Learning Research</em>, 27(30), 1–63.</li>
+          <li><strong>Yudong Wang</strong>, Jiayi Tong, Xiangbin Hu, Zhisheng Ye, Cheng Yong Tang, and Yong Chen (2025). Semiparametric Sieve Estimation for Survival Data with Two-layer Censoring. <em>Biometrika</em>, 112(2), asaf006.</li>
+          <li>Xiangbin Hu, <strong>Yudong Wang</strong>, Zhisheng Ye, and Xingqiu Zhao (2025). Phase-type Distributions for Sieve Estimation. <em>Journal of the American Statistical Association</em>, 120(551), 1828–1839.</li>
+          <li>Peihong Xiao, <strong>Yudong Wang<sup>*</sup></strong>, Wenting Liu, and Zhisheng Ye (2024). Remaining Useful Life Prediction Based on Forward Intensity. <em>Technometrics</em>, 67(2), 238–253.</li>
+          <li>Tong Wu, <strong>Yudong Wang<sup>*</sup></strong>, Zhisheng Ye, and Nan Chen (2024). Spatio-Temporal Analysis and Prediction of Mass Telecommunication Base Station Failure Events. <em>Technometrics</em>, 66(1), 77–89.</li>
+          <li><strong>Yudong Wang</strong> and Zhisheng Ye (2023). Phase-Type Distributions for Product Return Data with Two-Layer Censoring. <em>Journal of the Royal Statistical Society Series C (Applied Statistics)</em>, 72(5), 1475–1492.</li>
+          <li><strong>Yudong Wang</strong>, Yanlin Tang, and Zhisheng Ye (2022). Paired or Partially Paired Two-Sample Tests with Unordered Samples. <em>Journal of the Royal Statistical Society Series B (Statistical Methodology)</em>, 84(4), 1503–1525.</li>
+          <li><strong>Yudong Wang</strong>, Zhisheng Ye, and Hongyuan Cao (2021). On Computation of Semiparametric Maximum Likelihood Estimators with Shape Constraints. <em>Biometrics</em>, 77(1), 113–124.</li>
+        </ol>
+
+        <h2>Applications and Collaborative Work</h2>
+        <ol class="publication-list">
+          <li><strong>Yudong Wang<sup>§</sup></strong>, Dazheng Zhang<sup>§</sup>, Jiayi Tong, Xing He, Liang Li, Lichao Sun, Ashutosh Shukla, Jiang Bian, David A. Asch, and Yong Chen (2025). A Communication-efficient Federated Learning Algorithm to Assess Racial Disparities in Post-Transplantation Survival Time. <em>Journal of the American Medical Informatics Association</em>, ocaf138. Featured article by the Editor-in-Chief.</li>
+          <li>Qiong Wu, Bingyu Zhang, Jiayi Tong, L. Charles Bailey, et al., <strong>Yudong Wang</strong>, et al., and Yong Chen (2025). Real-world Effectiveness and Causal Mediation Study of BNT162b2 on Long COVID Risks in Children and Adolescents. <em>The Lancet eClinicalMedicine</em>, 79, 102962.</li>
+          <li>Qiong Wu, Jiayi Tong, Bingyu Zhang, Dazheng Zhang, Jiajie Chen, Yuqing Lei, Yiwen Lu, <strong>Yudong Wang</strong>, et al., and Yong Chen (2024). Real-World Effectiveness of BNT162b2 Against Infection and Severe Diseases in Children and Adolescents. <em>Annals of Internal Medicine</em>, 177(2), 165–176.</li>
+          <li>Lijuan Shen, <strong>Yudong Wang</strong>, Qingqing Zhai, and Yincai Tang (2018). Degradation Modeling Using Stochastic Processes with Random Initial Degradation. <em>IEEE Transactions on Reliability</em>, 68(4), 1320–1329.</li>
+        </ol>
+      </section>
+
+      <section class="content-section" id="teaching">
+        <h1>Teaching</h1>
+        <ul>
+          <li>IE6002 Advanced Engineering Statistics, National University of Singapore — Teaching Assistant, Fall 2020.</li>
+          <li>IE5123 Reliability Engineering and Asset Management, National University of Singapore — Teaching Assistant, Fall 2019.</li>
+          <li>IE2100 Introduction to Probability, National University of Singapore — Teaching Assistant, Spring 2019.</li>
+        </ul>
+      </section>
+
+      <section class="content-section" id="service">
+        <h1>Professional Activities and Service</h1>
+
+        <h2>Session Chair</h2>
+        <ul>
+          <li>The 2024 ICSA Applied Statistics Symposium, Nashville, Tennessee — “Addressing Heterogeneity in Federated and Transfer Learning in Real-world Data.”</li>
+          <li>The 4th International Conference on System Reliability and Safety Engineering, Guangzhou, China — “Data-driven Approaches in Reliability and Operations Management.”</li>
+        </ul>
+
+        <h2>Selected Conference Presentations</h2>
+        <ul>
+          <li>2025 Joint Statistical Meetings, Nashville, Tennessee — “Semiparametric Sieve Estimation for Survival Data with Two-layer Censoring.”</li>
+          <li>2024 Joint Statistical Meetings, Portland, Oregon — “Integration of Heterogeneous Data via a One-shot Distributed EM Algorithm.”</li>
+          <li>2024 ICSA Applied Statistics Symposium, Nashville, Tennessee — “Integration of Heterogeneous Data via a One-shot Distributed EM Algorithm.”</li>
+          <li>The Fifth International Conference on the Interface between Statistics and Engineering, Seoul, South Korea (2019) — “Phase-type Distributions for Product Return Data with Two-layer Censoring.”</li>
+        </ul>
+
+        <h2>Awards and Honors</h2>
+        <ul>
+          <li>National Semiconductor Gold Medal (2023), Department of Industrial Systems Engineering and Management, National University of Singapore.</li>
+          <li>Finalist of the QSR Best Case Study Paper Competition (2022), Quality, Statistics, and Reliability Section of INFORMS.</li>
+          <li>Best Paper Award (2021), The First International Workshop on Statistical Theory and Related Fields, Shanghai, China.</li>
+        </ul>
+
+        <h2>Reviewer</h2>
+        <p>INFORMS Journal on Data Science; Lifetime Data Analysis; Statistics and Computing.</p>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">© <span id="year"></span> Yudong Wang</div>
   </footer>
 
   <script>
